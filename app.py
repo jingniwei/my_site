@@ -11,4 +11,4 @@ app.add_url_rule('/',
 
 
 app.debug = True
-app.run()
+# app.run()
