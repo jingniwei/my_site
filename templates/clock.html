@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block body %}
+	<link rel="stylesheet" type="text/css" href="/static/css/flipclock.css"/>
+    <h1>Time</h1>
+    <div class="your-clock"></div>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			var clock = $('.your-clock').FlipClock({
+			// ... your options here
+			});
+		});
+	</script>
+	<script type="text/javascript" src="/static/js/flipclock.js"></script>
+{% endblock %}
